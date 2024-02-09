@@ -13,9 +13,12 @@
 
 - Link de GitHub: https://github.com/LucasMezza88/FinalProject-Mezzabotta.git
 
-- El proyecto cuenta con dos aplicaciones:
+- El proyecto toma como base lo desarrollado durante las clases del curso de Coderhouse. 
+
+- Cuenta con dos aplicaciones:
     
-    La primera (core) es la base del proyecto, en donde se encuentran la página de inicio y una barra de navegación para la interacción con el usuario. Brinda la posibilidad de crear un nuevo usuario y de iniciar y cerrar sesión. Al ingresar como administrador, se permite el ingreso al panel de administración de Django.
+    La primera (core) es en donde se encuentran la página de inicio y una barra de navegación para la interacción con el usuario. Brinda la posibilidad de crear un nuevo usuario y de iniciar y cerrar sesión. 
+    Al ingresar como administrador, se permite el ingreso al panel de administración de Django.
 
     La segunda (producto) está centrada en los productos que ofrece la tienda. Se presentan las categorías en las que se clasifican los mismos, con la posibilidad de verlas en detalle, crear nuevas, modificarlas o eliminar existentes.
 
