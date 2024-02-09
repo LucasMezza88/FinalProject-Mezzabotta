@@ -7,7 +7,7 @@
                 <li class="nav-item"><a class="nav-link {% if request.path == '/' %} active {% endif %}" href="{% url 'core:index' %}">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link {% if '/about/' in request.path %} active {% endif %}" href="{% url 'core:about' %}">Quiénes somos</a></li>
                 {% if user.is_authenticated %}
-                    <li class="nav-item"><a class="nav-link {% if '/producto/' in request.path %} active {% endif %} " href="{% url 'producto:index' %}">Producto</a></li>
+                    <li class="nav-item"><a class="nav-link {% if '/producto/' in request.path %} active {% endif %} " href="{% url 'producto:index' %}">Productos</a></li>
                     <li class="nav-item nav-link text-bg-info">{{ user.username }}</li>
                     <li class="nav-item ">
                         <form action="{% url 'core:logout' %}" method="post">
