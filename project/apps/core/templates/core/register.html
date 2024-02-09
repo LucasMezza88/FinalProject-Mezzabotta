@@ -1,11 +1,11 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    | Register
+    | Crear Cuenta
 {% endblock title %}
 
 {% block content_title %}
-    Register
+    Nuevo Usuario
 {% endblock content_title %}
 
 {% block content %}
@@ -13,7 +13,7 @@
     <form method="post" class="form-control">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Registrar Usuario</button>
+        <button type="submit" class="btn btn-primary">Crear Cuenta</button>
         <a href="{% url 'core:index' %}" class="btn btn-secondary">Cancelar</a>
     </form>
 

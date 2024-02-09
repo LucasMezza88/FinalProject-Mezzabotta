@@ -26,7 +26,7 @@ class ProductoCategoriaList(ListView):
         else:
             object_list = ProductoCategoria.objects.all()
         return object_list
-    
+
 class ProductoCategoriaCreate(LoginRequiredMixin, CreateView):
     model = ProductoCategoria
     form_class = ProductoCategoriaForm
