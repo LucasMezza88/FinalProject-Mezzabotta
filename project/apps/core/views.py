@@ -27,3 +27,6 @@ def register(request):
     else:  # if request.method == "GET":
         form = CustomUserCreationForm()
     return render(request, "core/register.html", {"form": form})
+
+def unavailable(request: HttpRequest) -> HttpResponse:
+    return render(request, "core/unavailable.html")

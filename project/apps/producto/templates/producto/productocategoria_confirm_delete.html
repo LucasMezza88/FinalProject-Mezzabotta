@@ -1,11 +1,11 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    | Producto | Categoría
+    | Productos | Categorías
 {% endblock title %}
 
 {% block content_title %}
-    Confirmar Eliminación de Categoría
+    Confirmar Eliminación
 {% endblock content_title %}
 
 
@@ -15,8 +15,8 @@
 
     <div class="card mt-4">
       <div class="card-body">
-        <h5 class="card-title">¿Estás seguro de que deseas eliminar la categoría "{{ object.nombre }}"?</h5>
-        <p class="card-text">Esta acción no se puede deshacer.</p>
+        <h5 class="card-title">¿Eliminar categoría "{{ object.nombre }}"?</h5>
+        <p class="card-text">Una vez confirmado no se puede volver atrás.</p>
       </div>
     </div>
 
