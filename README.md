@@ -13,6 +13,8 @@
 
 - Link de GitHub: https://github.com/LucasMezza88/FinalProject-Mezzabotta.git
 
+- Link Youtube: https://youtu.be/ymD7iYcH3T8
+
 - El proyecto toma como base lo desarrollado durante las clases del curso de Coderhouse. 
 
 - Cuenta con dos aplicaciones:
